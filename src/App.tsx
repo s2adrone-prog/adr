@@ -428,7 +428,7 @@ export default function App() {
                       <div className="lg:col-span-5 relative flex justify-center">
                         <div className="relative w-80 h-80 sm:w-96 sm:h-96 rounded-2xl overflow-hidden border border-slate-800 shadow-2xl">
                           <img
-                            src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800"
+                            src="https://images.unsplash.com/photo-1531685222403-f928502d2b30?auto=format&fit=crop&q=80&w=800"
                             alt="Custom printed tile design mockup"
                             className="w-full h-full object-cover"
                             referrerPolicy="no-referrer"

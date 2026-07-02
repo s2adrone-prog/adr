@@ -76,7 +76,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: "Customized Tiles",
     description: "Exquisite ceramic tile with a high-gloss sublimation coating. Delivers incredibly vibrant colors and sharp details. Includes a sleek display stand for shelves, desks, or mantles.",
     basePrice: 449,
-    mockupImage: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800",
+    mockupImage: "https://images.unsplash.com/photo-1531685222403-f928502d2b30?auto=format&fit=crop&q=80&w=800",
     overlayArea: {
       top: 15,
       left: 20,
@@ -128,12 +128,12 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: "Customized Keyrings",
     description: "Heavy-duty polished metal keyring with high-grade printed inserts. Scratch-resistant acrylic dome covers protect your designs on both sides.",
     basePrice: 149,
-    mockupImage: "https://images.unsplash.com/photo-1582139329536-e7284fece509?auto=format&fit=crop&q=80&w=800",
+    mockupImage: "https://images.unsplash.com/photo-1619119069152-a2b331eb992a?auto=format&fit=crop&q=80&w=800",
     overlayArea: {
-      top: 30,
-      left: 28,
-      width: 44,
-      height: 44,
+      top: 36,
+      left: 32,
+      width: 36,
+      height: 36,
       borderRadius: "50%"
     },
     variants: [
@@ -155,7 +155,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: "Customized Crystal Photo Frames",
     description: "Thick, high-optical-purity solid crystal photo frame. Features precision beveled edges that refract light beautifully. Photos are fused permanently inside the glass structure.",
     basePrice: 899,
-    mockupImage: "https://images.unsplash.com/photo-1544273677-c433136021d4?auto=format&fit=crop&q=80&w=800",
+    mockupImage: "https://images.unsplash.com/photo-1579783900882-c0d3dad7b119?auto=format&fit=crop&q=80&w=800",
     overlayArea: {
       top: 15,
       left: 18,
@@ -208,7 +208,7 @@ export const INITIAL_PRODUCTS: Product[] = [
     category: "Customized MDF Sheet Prints",
     description: "Custom photo print on highly durable, eco-friendly Medium Density Fiberboard (MDF). Features a subtle matte texture that reduces reflections. Ready-to-hang wooden feel.",
     basePrice: 349,
-    mockupImage: "https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&q=80&w=800",
+    mockupImage: "https://images.unsplash.com/photo-1541123437800-1bb1317badc2?auto=format&fit=crop&q=80&w=800",
     overlayArea: {
       top: 15,
       left: 20,
@@ -290,8 +290,8 @@ export const INITIAL_SERVICES: CreativeService[] = [
       }
     },
     portfolio: [
-      { id: "p-logo-1", title: "Helix BioTech Logo", image: "https://images.unsplash.com/photo-1626785774573-4b799315345d?auto=format&fit=crop&q=80&w=600", description: "Sleek DNA-inspired minimalist geometric logo for an advanced health startup." },
-      { id: "p-logo-2", title: "Zenith Coffee Emblem", image: "https://images.unsplash.com/photo-1524168204150-6126de4dd1a2?auto=format&fit=crop&q=80&w=600", description: "Rustic hand-lettered corporate emblem for an artisanal organic roaster chain." }
+      { id: "p-logo-1", title: "Helix BioTech Logo", image: "https://images.unsplash.com/photo-1628348017894-3d88d05e47a0?auto=format&fit=crop&q=80&w=600", description: "Sleek DNA-inspired minimalist geometric logo for an advanced health startup." },
+      { id: "p-logo-2", title: "Zenith Coffee Emblem", image: "https://images.unsplash.com/photo-1568649929103-28fffe997658?auto=format&fit=crop&q=80&w=600", description: "Rustic hand-lettered corporate emblem for an artisanal organic roaster chain." }
     ]
   },
   {
@@ -325,8 +325,8 @@ export const INITIAL_SERVICES: CreativeService[] = [
       }
     },
     portfolio: [
-      { id: "p-grap-1", title: "FutureTech Summit Poster", image: "https://images.unsplash.com/photo-1547891654-e66ed7edd96c?auto=format&fit=crop&q=80&w=600", description: "Bold cyberpunk neon poster layout for a global technology symposium." },
-      { id: "p-grap-2", title: "Harvest Foods Brochure", image: "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&q=80&w=600", description: "Elegant, clean earthy-toned editorial brochure highlighting organic supply lines." }
+      { id: "p-grap-1", title: "FutureTech Summit Poster", image: "https://images.unsplash.com/photo-1563089145-599997674d42?auto=format&fit=crop&q=80&w=600", description: "Bold cyberpunk neon poster layout for a global technology symposium." },
+      { id: "p-grap-2", title: "Harvest Foods Brochure", image: "https://images.unsplash.com/photo-1464226184884-fa280b87c3aa?auto=format&fit=crop&q=80&w=600", description: "Elegant, clean earthy-toned editorial brochure highlighting organic supply lines." }
     ]
   },
   {
@@ -360,7 +360,7 @@ export const INITIAL_SERVICES: CreativeService[] = [
       }
     },
     portfolio: [
-      { id: "p-brand-1", title: "Vesta Hotel Stationery", image: "https://images.unsplash.com/photo-1586075010923-2dd45e9b2d4f?auto=format&fit=crop&q=80&w=600", description: "Minimalist warm-beige luxury corporate brand stationery and letterheads." }
+      { id: "p-brand-1", title: "Vesta Hotel Stationery", image: "https://images.unsplash.com/photo-1616628188467-8fb26f6399ca?auto=format&fit=crop&q=80&w=600", description: "Minimalist warm-beige luxury corporate brand stationery and letterheads." }
     ]
   },
   {
@@ -394,8 +394,8 @@ export const INITIAL_SERVICES: CreativeService[] = [
       }
     },
     portfolio: [
-      { id: "p-web-1", title: "Solaris Solar Panel Dashboard", image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=600", description: "React real-time telemetry dashboard detailing power grids across India." },
-      { id: "p-web-2", title: "OrganicBites E-Grocery App", image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=600", description: "Ultra-fast Next.js storefront supporting instant geo-location delivery tracking." }
+      { id: "p-web-1", title: "Solaris Solar Panel Dashboard", image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80&w=600", description: "React real-time telemetry dashboard detailing power grids across India." },
+      { id: "p-web-2", title: "OrganicBites E-Grocery App", image: "https://images.unsplash.com/photo-1556742044-3c52d6e88c62?auto=format&fit=crop&q=80&w=600", description: "Ultra-fast Next.js storefront supporting instant geo-location delivery tracking." }
     ]
   },
   {
@@ -429,7 +429,7 @@ export const INITIAL_SERVICES: CreativeService[] = [
       }
     },
     portfolio: [
-      { id: "p-mob-1", title: "FitPulse Workout Tracker", image: "https://images.unsplash.com/photo-1510519138101-570d1dca3d66?auto=format&fit=crop&q=80&w=600", description: "Sleek biometric-tracking app utilizing watchOS & Android Wear APIs." }
+      { id: "p-mob-1", title: "FitPulse Workout Tracker", image: "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&q=80&w=600", description: "Sleek biometric-tracking app utilizing watchOS & Android Wear APIs." }
     ]
   }
 ];
