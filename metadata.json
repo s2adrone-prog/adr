@@ -1,6 +1,6 @@
 {
   "name": "ADR E-Store",
-  "description": "Modern and responsive catalog showcase for customized print-on-demand products and creative digital branding services, designed to capture customer leads via direct WhatsApp inquiries and contact forms.",
+  "description": "Modern and responsive catalog showcase for creative digital branding services, corporate blueprints, web systems, and mobile applications, designed to capture customer leads via direct WhatsApp and contact forms.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

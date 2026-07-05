@@ -22,10 +22,9 @@ export default function Navbar({
 
   const navLinks = [
     { id: 'home', label: 'Home' },
-    { id: 'shop', label: 'Shop / Custom Print' },
-    { id: 'services', label: 'Digital Services' },
+    { id: 'services', label: 'Creative Services' },
     { id: 'about', label: 'About Us' },
-    { id: 'contact', label: 'Contact' },
+    { id: 'contact', label: 'Contact Us' },
   ];
 
   const handleNavClick = (tabId: string) => {
@@ -52,7 +51,7 @@ export default function Navbar({
               className="flex items-center gap-1.5 text-xl font-black tracking-tighter bg-indigo-600 text-white px-3 py-1 rounded cursor-pointer transition-all hover:bg-indigo-700"
             >
               <span>ADR</span>
-              <span className="font-light opacity-80">ESTORE</span>
+              <span className="font-light opacity-80">STUDIO</span>
             </button>
 
             {/* Desktop Navigation */}
@@ -84,12 +83,12 @@ export default function Navbar({
               <input
                 id="desktop-search-input"
                 type="text"
-                placeholder="Search products..."
+                placeholder="Search services..."
                 value={searchQuery}
                 onChange={(e) => {
                   setSearchQuery(e.target.value);
-                  if (currentTab !== 'shop') {
-                    setCurrentTab('shop');
+                  if (currentTab !== 'services') {
+                    setCurrentTab('services');
                     setIsAdminMode(false);
                   }
                 }}
@@ -136,12 +135,12 @@ export default function Navbar({
             <input
               id="mobile-search-input"
               type="text"
-              placeholder="Search products..."
+              placeholder="Search services..."
               value={searchQuery}
               onChange={(e) => {
                 setSearchQuery(e.target.value);
-                if (currentTab !== 'shop') {
-                  setCurrentTab('shop');
+                if (currentTab !== 'services') {
+                  setCurrentTab('services');
                   setIsAdminMode(false);
                 }
               }}

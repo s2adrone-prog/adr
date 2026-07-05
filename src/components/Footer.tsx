@@ -32,16 +32,16 @@ export default function Footer({ setCurrentTab, setIsAdminMode }: FooterProps) {
           <div className="space-y-4">
             <div className="flex items-center gap-1.5 text-xl font-black text-white bg-indigo-600 px-3 py-1.5 rounded w-max">
               <span>ADR</span>
-              <span className="font-light opacity-80 font-sans">ESTORE</span>
+              <span className="font-light opacity-80 font-sans">STUDIO</span>
             </div>
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm">
-              Your premier gateway for custom print-on-demand products and executive branding/creative services. High-resolution detailing on physical crafts matched with state-of-the-art web/digital blueprints.
+              Your premier digital agency for premium branding guidelines, custom-crafted graphic blueprints, web applications, and mobile products. Designed with absolute meticulous attention to layout, typography, and clean interaction.
             </p>
             {/* WhatsApp Floating/Direct Action */}
             <div className="pt-2">
               <a
                 id="footer-whatsapp-btn"
-                href="https://wa.me/919876543210?text=Hello%20ADR%20E-Store!%20I%20want%20to%20inquire%20about%20a%20customized%20order."
+                href="https://wa.me/919876543210?text=Hello%20ADR%20Creative%20Studio!%20I%20want%20to%20inquire%20about%20creative%20services."
                 target="_blank"
                 rel="noreferrer"
                 className="inline-flex items-center gap-2 bg-indigo-600 hover:bg-indigo-500 text-white text-xs font-semibold px-4 py-2.5 rounded-full shadow-md hover:shadow-lg transition-all"
@@ -52,38 +52,38 @@ export default function Footer({ setCurrentTab, setIsAdminMode }: FooterProps) {
             </div>
           </div>
 
-          {/* Column 2: Quick Links - POD Shop */}
+          {/* Column 2: Studio Focus */}
           <div className="space-y-3">
-            <h4 className="text-white text-xs font-bold uppercase tracking-widest">Shop Customized</h4>
+            <h4 className="text-white text-xs font-bold uppercase tracking-widest">Studio Focus</h4>
             <ul className="space-y-2 text-xs">
               <li>
-                <button onClick={() => handleLinkClick('shop')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
-                  <span>Customized T-Shirts</span>
+                <button onClick={() => handleLinkClick('services')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
+                  <span>Logo Crafting</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </button>
               </li>
               <li>
-                <button onClick={() => handleLinkClick('shop')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
-                  <span>Customized Mugs & Bottles</span>
+                <button onClick={() => handleLinkClick('services')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
+                  <span>Graphic Systems</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </button>
               </li>
               <li>
-                <button onClick={() => handleLinkClick('shop')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
-                  <span>Luxe Crystal Frames & Clocks</span>
+                <button onClick={() => handleLinkClick('services')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
+                  <span>Web App Engineering</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </button>
               </li>
               <li>
-                <button onClick={() => handleLinkClick('shop')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
-                  <span>MDF & Metal Sheet Prints</span>
+                <button onClick={() => handleLinkClick('services')} className="hover:text-indigo-450 transition-colors cursor-pointer flex items-center gap-1 group text-slate-400">
+                  <span>Native Mobile Apps</span>
                   <ArrowUpRight className="w-3 h-3 opacity-0 group-hover:opacity-100 transition-opacity" />
                 </button>
               </li>
             </ul>
           </div>
 
-          {/* Column 3: Quick Links - Services */}
+          {/* Column 3: Creative & Tech */}
           <div className="space-y-3">
             <h4 className="text-white text-xs font-bold uppercase tracking-widest">Creative & Tech</h4>
             <ul className="space-y-2 text-xs">
@@ -118,11 +118,11 @@ export default function Footer({ setCurrentTab, setIsAdminMode }: FooterProps) {
           <div className="space-y-4">
             <h4 className="text-white text-xs font-bold uppercase tracking-widest">Stay Inspired</h4>
             <p className="text-xs text-slate-400">
-              Subscribe to receive graphic design tips, special e-store promo codes, and print guides.
+              Subscribe to receive curated graphic design insights, executive branding guides, and digital strategy newsletters.
             </p>
             {subscribed ? (
               <div className="bg-slate-800 border border-emerald-500/30 text-emerald-400 p-2.5 rounded-sm text-xs text-center animate-fade-in">
-                <span className="font-semibold">Subscribed successfully!</span> Use coupon <strong className="text-white underline">WELCOME15</strong> for 15% off.
+                <span className="font-semibold">Subscribed successfully!</span> Welcome to our creative design digest.
               </div>
             ) : (
               <form id="newsletter-form" onSubmit={handleSubscribe} className="flex gap-2">
@@ -166,7 +166,7 @@ export default function Footer({ setCurrentTab, setIsAdminMode }: FooterProps) {
         {/* Bottom Banner */}
         <div className="pt-8 mt-8 border-t border-slate-800 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-500">
           <div>
-            <span>© 2026 ADR E-Store. All Rights Reserved. Crafted with pristine premium design principles.</span>
+            <span>© 2026 ADR Creative Studio. All Rights Reserved. Crafted with pristine premium design principles.</span>
           </div>
           <div className="flex items-center gap-4">
             <span className="hover:text-slate-300 cursor-pointer" onClick={() => handleLinkClick('about')}>About Us</span>
